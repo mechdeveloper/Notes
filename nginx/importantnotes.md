@@ -62,8 +62,8 @@ http {
     upstream yourCustomUpstreamName{
         ip_hash;
         server <server1.domain>:<server1port>; 
-		    server <server2.domain>:<server2port>; 
-		    server <server3.domain>:<server3port>; 
+        server <server2.domain>:<server2port>; 
+        server <server3.domain>:<server3port>; 
     }
 
 }
